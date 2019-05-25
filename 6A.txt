@@ -1,0 +1,13 @@
+MariaDB [arkademy]> select users.name as "name_rogrammer",
+    -> count(skills.name) as "jumlah_skill" from users, skills
+    -> where users.id = skills.user_id 
+    -> group by user_id;
++-----------------+--------------+
+| name_rogrammer  | jumlah_skill |
++-----------------+--------------+
+| programmer ke-1 |            4 |
+| programmer ke-2 |            2 |
++-----------------+--------------+
+2 rows in set (0.00 sec)
+
+MariaDB [arkademy]> notee;

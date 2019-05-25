@@ -1,0 +1,87 @@
+html {
+    position: relative;
+}
+
+body {
+    /* margin-bottom: 80px; */
+    background-color: skyblue;
+}
+
+.warna {
+    background-color: skyblue;
+    border-bottom: 2px solid #fefefe;
+}
+
+.data {
+    min-height: 500px;
+    padding-top: 30px;
+}
+
+.contain {
+    width: 500px;
+    min-height: 300px;
+    border-radius: 50px;
+    border: 2px solid white;
+    position: relative;
+    left: 50px;
+}
+
+.addProgrammer {
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+
+.view {
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+
+.listUserSkills span {
+    display: block;
+}
+
+.addProgrammer input {
+    width: 250px;
+}
+
+input {
+    border: 2px solid #fefefe;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.addSkills {
+    position: relative;
+    left: 170px;
+    top: -30px;
+}
+
+/* .table2 {
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rowsbutton {
+	margin: 15px;
+	margin-right: 15px;
+} */
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #aaa;
+}
